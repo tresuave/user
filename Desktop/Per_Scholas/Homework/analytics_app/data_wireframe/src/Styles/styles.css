@@ -1,0 +1,67 @@
+.rectangle{
+        display: grid;
+        background-color: rgb(233, 230, 230);
+        grid-template-columns: 4.3fr 0.1fr 0.1fr 3.6fr 0.5fr 4.7fr 5.9fr 0.1fr 0.3fr 0.1fr;
+        grid-template-rows: 0.1fr 0.9fr 2.1fr;
+        gap: 3px 3px;
+        grid-template-areas:
+          ". . . . . . . . . ."
+          "sidebar review review review review analysis avg . . ."
+          "sidebar . . visitors visitors visitors visitors . . .";
+      }
+
+.box{
+   
+    background-color:rgb(134, 134, 134);
+    display:grid;
+    grid-area:review;
+}
+.box2{
+   
+    background-color:rgb(134, 134, 134);
+    display:grid;
+    grid-area:analysis;
+  
+    
+}
+.box3{
+   
+    background-color:rgb(134, 134, 134);
+    display:grid;
+    grid-area:avg;
+   
+    
+}
+.sidepiece{
+    
+    background-color: rgb(134, 134, 134);
+    display:grid;
+    grid-area:sidebar;
+
+}
+.visit{
+   display:grid;
+    background-color: rgb(161, 161, 161);
+    grid-area:visitors;
+}
+.mini{
+   
+    background-color: rgb(134, 134, 134) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
